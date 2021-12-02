@@ -60,7 +60,7 @@ let click = (color) => {
   setTimeout(() => {
     createColorElement(color).classList.remove('selected')
     checkOrder()
-  }, 250)
+  }, 170)
 }
 
 // returning the color
@@ -103,5 +103,8 @@ green.onclick = () => click(0)
 red.onclick = () => click(1)
 yellow.onclick = () => click(2)
 blue.onclick = () => click(3)
+
+alert("Welcome to Genius! Let's start the game")
+
 
 playGame()
